@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: "Be Vietnam Pro", sans-serif;
+}
+
+#nav-bar
+{
+	background-color:#0c0113;
+	position:static;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.nav-link:hover{
+    transition: 0.8s;
+    transform: scale(1.03); 
+}
+.nav-link {
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-size: 15px;
+    font-weight: 300;
+    cursor: pointer; 
+}
+.navbar
+{
+    padding: 0 !important;
+}
+
+/* navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+} */
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+
+/*---banner section--*/
+#main
+{
+	text-align: center;
+	font-weight: bold ;
+	background-color:#0a0b3b;
+	color:#fff;
+	padding-top:5%;	
+}
+.container h1 {
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-size: 50px;
+    font-weight: 800;
+}
+
+.container img{ 
+	padding-bottom: 10px;
+}
+
+/*---service section---*/
+#features1
+{
+	text-align:center;
+	font-family: "Be Vietnam Pro", sans-serif;
+}
+
+#features
+{
+	text-align: center;
+	font-family: "Be Vietnam Pro", sans-serif;
+	padding: 10% 15%; 
+	background-image:url("https://i.pinimg.com/736x/15/3a/45/153a4535df6cf2d2b106a558b750c486.jpg");	
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.white-section{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#features1 h3
+{
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-size: 20;
+	font-weight: bolder;
+	text-transform: capitalize;
+	padding:5px;
+	margin-top:25px;
+}
+#features1 p{
+	font-family: "Be Vietnam Pro", sans-serif;
+	text-align:center;
+	font-size: 15;
+	font-weight: bold;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+	font-family: "Be Vietnam Pro", sans-serif;
+}
+.title::before
+{
+	font-family: "Be Vietnam Pro", sans-serif;
+	content:'';
+	background:#dfdfe7;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	font-family: "Be Vietnam Pro", sans-serif;
+	content:'';
+	background:#e9e9ee;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#a517ba,#5f1782)
+}
+
+#features .btn-pink{
+    background-color: #0a0b3b;
+    color: white;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px transparent;             
+    position: relative;
+    z-index: 1;
+}
+#features .btn-pink::before{
+    content: "";                  
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+    z-index: -1;                           
+}
+#features .btn-pink:hover::before{
+    transform: scaleX(1);
+}
+#features .btn-pink:hover{
+    border: solid 3px #0a0b3b;
+    color: black;
+}
+
+/* Action*/
+  #action{
+    background-color:#0a0b3b;
+    padding: 7.5% 15%;
+    text-align: center;
+	font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+.footer-head{
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-size: 18;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+#footer{
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-size: 14;
+	background-color:#0a0b3b;
+    color:#fff;
+    padding: 5.5% 25%;
+    text-align: center;
+}
+
+#footer-index{
+	font-size: 40;
+	font-weight: bold;
+}
+
+.skills-logo{
+    width: 35px;
+    transition: all 0.5s;
+}
+.skills-logo:hover{
+    transform: scale(1.2);
+}

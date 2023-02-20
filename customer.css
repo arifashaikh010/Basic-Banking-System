@@ -1,0 +1,27 @@
+.navbar-nav{
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-decoration:white;
+    font-weight: bold;
+}
+
+#nav-bar
+{
+    background-color:#c5d7bd;
+    position:static;
+    top:0;
+    z-index:10;
+}
+
+.nav-link:hover {
+    transition: 0.6s;
+    transform: scale(1.03);     
+    font-weight: bold;
+}
+  
+.nav-link {
+    font-family:"Be Vietnam Pro", sans-serif;
+}
+  
+a{
+    color:white;
+}
